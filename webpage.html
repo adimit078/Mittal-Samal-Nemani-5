@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa9d;
+        color: white;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Style the header */
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 98%; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+      }
+
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        font-size: 1.5vw;
+        word-wrap: break-word;
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 98%; /* only for demonstration, should be removed */
+      }
+
+      /* Clear floats after the columns */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Style the footer */
+      footer {
+        background-color: #777;
+        padding: 2%;
+        text-align: center;
+        color: white;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="https://neuromatter.org">Soccer</a>
+      <a href="#basketball">Basketball</a>
+      <a href="#tennis">Tennis</a>
+    </div>
+
+    <div style="padding-left: 16px">
+      <h2>CSP Sports Bar</h2>
+    </div>
+
+    <section>
+      <nav>
+        <picture>
+          <img
+            src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/sports-1584678012.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+          />
+        </picture>
+      </nav>
+
+      <article>
+        <h1>Welcome</h1>
+        <p>
+          The world is more divided than ever. Thankfully, people across seas,
+          across walls, across nations, and across continents are connected by
+          one thing: sports. The thrill to see your team pushing forward or your
+          favorite player is a feeling of inspiration.
+        </p>
+        <p>
+          We hope that you can enjoy learning about some of the common sports
+          bringing people together today!
+        </p>
+        <h1>Instructions</h1>
+        <ol>
+          <li>
+            Choose on of the sports to learn about in the top navigation bar
+          </li>
+          <li>
+            Scroll through the various pages and gain insight into the sport
+          </li>
+          <li>
+            Access specific information regarding sport characters by navigating
+            through individual pages
+          </li>
+        </ol>
+        <h1>New Information</h1>
+        <p>RESERVED FOR MILLARD DATA</p>
+      </article>
+    </section>
+
+    <footer>
+      <p>Designed and created by Sanat Samal, Eshwar Nemani, Aditya Mittal</p>
+    </footer>
+  </body>
+</html>
