@@ -93,7 +93,6 @@ img {
   object-fit: cover;
 }
 
-
 .button {
   border: none;
   color: white;
@@ -115,8 +114,8 @@ img {
 }
 
 .button1:hover {
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: yellow;
 }
 .button1:focus {
   background-color: black;
@@ -131,8 +130,8 @@ img {
 }
 
 .button2:hover {
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: yellow;
 }
 
 .button2:focus {
@@ -148,8 +147,8 @@ img {
 }
 
 .button3:hover {
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: yellow;
 }
 .button3:focus {
   background-color: black;
