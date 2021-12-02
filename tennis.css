@@ -22,10 +22,6 @@ body {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #04aa9d;
-  color: white;
-}
 * {
   box-sizing: border-box;
 }
