@@ -5,7 +5,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: Black;
 }
 
 .topnav a {
@@ -22,10 +22,6 @@ body {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #04aa9d;
-  color: white;
-}
 * {
   box-sizing: border-box;
 }
@@ -45,11 +41,11 @@ header {
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  float: left;
-  width: 30%;
+  float: right;
+  width: 40%;
   height: 98%; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 20px;
+  padding: 0px;
 }
 
 /* Style the list inside the menu */
@@ -63,7 +59,7 @@ article {
   word-wrap: break-word;
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 60%;
   background-color: #f1f1f1;
   height: 98%; /* only for demonstration, should be removed */
 }
