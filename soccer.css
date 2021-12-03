@@ -120,12 +120,12 @@ img {
 }
 
 .button1:hover {
-  background-color: black;
-  color: yellow;
+  background-color: rgb(121, 183, 219);
+  color: black;
 }
 .button1:focus {
-  background-color: black;
-  color: yellow;
+  background-color: rgb(121, 183, 219);
+  color: black;
 }
 
 .button2 {
@@ -136,13 +136,13 @@ img {
 }
 
 .button2:hover {
-  background-color: black;
-  color: yellow;
+  background-color: rgb(121, 183, 219);
+  color: black;
 }
 
 .button2:focus {
-  background-color: black;
-  color: yellow;
+  background-color: rgb(121, 183, 219);
+  color: black;
 }
 
 .button3 {
@@ -153,10 +153,10 @@ img {
 }
 
 .button3:hover {
-  background-color: black;
-  color: yellow;
+  background-color: rgb(121, 183, 219);
+  color: black;
 }
 .button3:focus {
-  background-color: black;
-  color: yellow;
+  background-color: rgb(121, 183, 219);
+  color: black;
 }
