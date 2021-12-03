@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .topnav {
@@ -27,7 +28,7 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 /* Style the header */
@@ -55,13 +56,14 @@ nav ul {
 }
 
 article {
-  font-size: 1.5vw;
+  font-size: 2vw;
   word-wrap: break-word;
   float: left;
   padding: 20px;
   width: 60%;
   background-color: #f1f1f1;
   height: 98%; /* only for demonstration, should be removed */
+  font-family: 'Rajdhani', sans-serif;
 }
 
 /* Clear floats after the columns */
@@ -71,6 +73,10 @@ section::after {
   clear: both;
 }
 
+section {
+  background-color: #f1f1f1;
+  color: black;
+}
 /* Style the footer */
 footer {
   background-color: #777;
