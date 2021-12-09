@@ -24,20 +24,36 @@
             <p>Tennis is a beautiful sport which fosters fantastic qualities in its players. Needing to utelize both mental prowess and mastery over their emotions in addition to the baseline physicality, tennis players are often regarded as one fo the most well rounded athletes in the world. </p>
             <h4>Use the Following Buttons to Learn About Different Parts of the Sport</h4>
 
-            <form action="test.php">
-              <label for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname" value="John"><br>
-              <label for="lname">Last name:</label><br>
-              <input type="text" id="lname" name="lname" value="Doe"><br><br>
-              <input type="submit" value="Submit">
-            </form> 
-
             <button class="button button1">Top 10 Players</button>
             <button class="button button2">Current Point Values</button>
             <button class="button button3">Previous Grand-Slam Winners</button>
 
 
+            <?php
+                $servername = "localhost";
+                $username = "root";
+                $password = "123456";
+                $dbname = "mydatabase";
+                // Create connection
+                $conn = new mysqli($servername, $username, $password, $dbname);
+                // Check connection
+                if ($conn->connect_error) {
+                    die("Connection failed: " . $conn->connect_error);
+                } 
+                $qString = "select firstName from myTable where age < " . $_POST(upperage) . "and >".$_POST(lowerAge);
+                $result = $conn->query($qString);
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while($row = $result->fetch_assoc()) {
+                    echo " Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+                    }
+                } else {
+                    echo "0 results";
+                }
+                $conn->close();
+            ?>
+
         </article>
       </section>
-
+    </body>
 </html>
