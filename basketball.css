@@ -114,49 +114,49 @@ img {
 
 .button1 {
   background-color: white;
-  color: black;
+  color: purple;
   border: 2px solid #a58b16;
   border-radius: 25px;
 }
 
 .button1:hover {
   background-color: #a58b16;
-  color: white;
+  color: purple;
 }
 .button1:focus {
   background-color: #a58b16;
-  color: white;
+  color: purple;
 }
 
 .button2 {
   background-color: white;
-  color: black;
+  color: purple;
   border: 2px solid #a58b16;
   border-radius: 25px;
 }
 
 .button2:hover {
   background-color: #a58b16;
-  color: white;
+  color: purple;
 }
 
 .button2:focus {
   background-color: #a58b16;
-  color: white;
+  color: purple;
 }
 
 .button3 {
   background-color: white;
-  color: black;
+  color: purple;
   border: 2px solid #a58b16;
   border-radius: 25px;
 }
 
 .button3:hover {
   background-color: #a58b16;
-  color: white;
+  color: purple;
 }
 .button3:focus {
   background-color: #a58b16;
-  color: white;
+  color: purple;
 }
