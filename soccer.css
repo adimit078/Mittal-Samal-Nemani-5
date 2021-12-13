@@ -66,6 +66,7 @@ article {
   font-family: 'Rajdhani', sans-serif;
 }
 
+
 /* Clear floats after the columns */
 section::after {
   content: "";
@@ -98,6 +99,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+
+
 
 .button {
   border: none;
