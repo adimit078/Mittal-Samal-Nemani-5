@@ -2,8 +2,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="soccer.css" />
-    <script defer src="node_modules/swup/dist/swup.min.js"></script>
-    <script defer src="style.js"></script>
+    <script src="style.js"></script>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
@@ -16,21 +15,28 @@
 
     <section>
         <nav>
-          <picture>
+          <figure>
             <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/SJZN3DG2DMI6TKGC2TKLCDHBGM.jpg">
-          </picture>
+          </figure>
+          <figcaption>Maradona</figcaption>
         </nav>
         
         <article>
           <section>
-            <h2 id="swup" class="transition-fade">Soccer</h2>
+            <h2>Soccer</h2>
             <hr>
           </section>
           
-          <h1 id="swup" class="transition-fade">About</h1>
-          <p id="swup" class="transition-fade">Soccer is the worlds most popular sport with half the world either playing, watching, or following the sport. It is a wonderful sport filled with creativity, physicality, and determination. </p>
-          <h4 id="swup" class="transition-fade">Use the Following Buttons to Learn About Different Parts of the Sport</h4>
-
+          <h1>About</h1>
+          <p>Soccer is the worlds most popular sport with half the world either playing, watching, or following the sport. It is a wonderful sport filled with creativity, physicality, and determination. </p>
+          <h4 id="demo">Click Here to See the Top Teams</h4>
+          <script>
+            document.getElementById("demo").onclick = function() {myFunction()};
+            
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "Bayern Munich, Borussia Dortmund, Real Madrid, Paris Saint Germain, Manchester City, Chelsea, Liverpool, Ajax";
+            }
+          </script>
           <button class="button button1">Top 10 Players</button>
           <button class="button button2">Current Most Goals Scored</button>
           <button class="button button3">Previous World Cup Winners</button>

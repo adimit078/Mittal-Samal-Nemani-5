@@ -23,17 +23,23 @@
         
         <article>
           <section>
-            <h2 class = "transition-fade">Basketball</h2>
+            <h2>Basketball</h2>
             <hr>
           </section>
 
-            <h1 class = "transition-fade">About</h1>
-            <p class = "transition-fade">Basketball is one of the world's most popular sports. Originating from the United States, basketball has become a global sport with over 100 players from 39 countries all around the globe. </p>
-            <h4 class = "transition-fade">Use the Following Buttons to Learn About Different Parts of the Sport</h4>
-
-            <button class="button button1">Top 10 Players</button>
-            <button class="button button2">Top 10 Points per Game</button>
-            <button class="button button3">Previous NBA Championship Winners</button>
+            <h1>About</h1>
+            <p>Basketball is one of the world's most popular sports. Originating from the United States, basketball has become a global sport with over 100 players from 39 countries all around the globe. </p>
+            <h4 id ="demo">Click Here to See Some of the Top Teams</h4>
+            <script>
+              document.getElementById("demo").onclick = function() {myFunction()};
+              
+              function myFunction() {
+                document.getElementById("demo").innerHTML = "Golden State Warriors, Brooklyn Nets, Chicago Bulls, Pheonix Suns, Dallas Mavericks";
+              }
+            </script>
+            <button>Top 10 Players</button>
+            <button>Top 10 Points per Game</button>
+            <button>Previous NBA Championship Winners</button>
 
           </article>
         </article>
