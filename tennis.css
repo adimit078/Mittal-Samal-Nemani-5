@@ -173,7 +173,7 @@ figure {
   position: relative;
   margin: 0px 0px;
   width: 675px;
-  height: 833px;
+  height: 865px;
   border: 6px rgb(233, 74, 74, 1) solid;
   overflow: hidden;
   text-align: center;
@@ -186,7 +186,7 @@ figure img {
 figure figcaption {
   position: absolute;
   padding-top: 300px;
-  background-color: rgb(233, 74, 74, .7);  
+  background-color: rgb(233, 74, 39, .7);  
   display: block;
   top: 100%;
   width: 100%;
