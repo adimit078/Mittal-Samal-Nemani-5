@@ -2,7 +2,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="soccer.css" />
-    <script src="style.js"></script>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
@@ -15,10 +14,15 @@
 
     <section>
         <nav>
-          <figure>
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/SJZN3DG2DMI6TKGC2TKLCDHBGM.jpg">
-          </figure>
-          <figcaption>Maradona</figcaption>
+          <section id ="RO_container">
+            <figure>
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/SJZN3DG2DMI6TKGC2TKLCDHBGM.jpg" alt = "image of maradona">
+              <figcaption>
+                <h2>Diego Maradona</h2>
+                <p>The Greatest Soccer Player to Win the World Cup</p>
+              </figcaption>
+            </figure>
+          </section> 
         </nav>
         
         <article>
@@ -29,7 +33,7 @@
           
           <h1>About</h1>
           <p>Soccer is the worlds most popular sport with half the world either playing, watching, or following the sport. It is a wonderful sport filled with creativity, physicality, and determination. </p>
-          <h4 id="demo">Click Here to See the Top Teams</h4>
+          <h4 id="demo">Click Here to See the Top Club Teams</h4>
           <script>
             document.getElementById("demo").onclick = function() {myFunction()};
             
@@ -42,5 +46,7 @@
           <button class="button button3">Previous World Cup Winners</button>
         </article>
       </section>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src = "style.js"></script>
+  </body>
 </html>
