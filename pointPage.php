@@ -27,7 +27,13 @@
   </head>
   <body>
     
-      <a class="active" href="index.php">Back Home</a>
+    <div class="topnav">
+      <a class="active" href="index.php">Home</a>
+      <a href="tennis.html">Tennis</a>
+      <a href="soccer.html">Soccer</a>
+      <a href="basketball.php">Basketball</a>
+
+    </div>
   
     <section>
       <nav>
