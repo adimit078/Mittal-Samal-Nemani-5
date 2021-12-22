@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="homecss.css" />
+    <link rel="stylesheet" type="text/css" href="indexform.css" />
   </head> 
   <body>
     <div class="topnav">
@@ -18,7 +18,7 @@
     </div>
 
     <section>
-      <nav>
+    <nav>
         <section id ="RO_container">
           <figure>
             <img src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/sports-1584678012.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt = "image of maradona">
@@ -29,6 +29,7 @@
           </figure>
         </section> 
       </nav>
+
 
       <article>
         <h1>Welcome</h1>
@@ -55,14 +56,8 @@
             through individual pages
           </li>
         </ol>
-        <h1>Let us know what you would like to see in the future!</h1>
-        <form action="index-forn.php">
-            <label for="fname">Sport Name: </label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Why do you want to learn about this?</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
-            <input type="submit" value="Send Request!">
-        </form>
+        <h1>Thanks For Your Request! Head to the nav-bar to learn more about other sports!</h1>
+        
       </article>
     </section>
 
