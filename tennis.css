@@ -114,49 +114,91 @@ img {
 
 .button1 {
   background-color: white;
-  color: black;
-  border: 2px solid #e94a4a;
+  color: purple;
+  border: 2px solid #a58b16;
   border-radius: 25px;
 }
 
 .button1:hover {
-  background-color: #e94a4a;
-  color: white;
+  background-color: #a58b16;
+  color: purple;
 }
 .button1:focus {
-  background-color: #e94a4a;
-  color: white;
+  background-color: #a58b16;
+  color: purple;
 }
 
 .button2 {
   background-color: white;
-  color: black;
-  border: 2px solid #e94a4a;
+  color: purple;
+  border: 2px solid #a58b16;
   border-radius: 25px;
 }
 
 .button2:hover {
-  background-color: #e94a4a;
-  color: white;
+  background-color: #a58b16;
+  color: purple;
 }
 
 .button2:focus {
-  background-color: #e94a4a;
-  color: white;
+  background-color: #a58b16;
+  color: purple;
 }
 
 .button3 {
   background-color: white;
-  color: black;
-  border: 2px solid #e94a4a;
+  color: purple;
+  border: 2px solid #a58b16;
   border-radius: 25px;
 }
 
 .button3:hover {
-  background-color: #e94a4a;
-  color: white;
+  background-color: #a58b16;
+  color: purple;
 }
 .button3:focus {
-  background-color: #e94a4a;
-  color: white;
+  background-color: #a58b16;
+  color: purple;
+}
+
+#RO_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+figure {
+  position: relative;
+  margin: 0px 0px;
+  width: 675px;
+  height: 865px;
+  border: 6px rgb(206, 56, 56, 1) solid;
+  overflow: hidden;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+}
+
+figure figcaption {
+  position: absolute;
+  padding-top: 300px;
+  background-color: rgb(206, 56, 56, .7);  
+  display: block;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+
+table, th, td {
+  border:1px solid black;
+  font-size: 30px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }

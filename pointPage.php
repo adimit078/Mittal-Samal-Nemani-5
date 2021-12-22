@@ -1,3 +1,23 @@
+<?php
+
+	$conn = mysqli_connect('localhost',"shaun", "test1234", "sports");
+
+	if(!$conn){
+		echo "Connection error: " . mysqli_connect_error();
+	}
+
+	$sql = 'SELECT Title, Rank, Points, Slams FROM tennis ORDER BY Rank';
+	$result = mysqli_query($conn, $sql);
+	$pros = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+	mysqli_free_result($result);
+	mysqli_close($conn);
+
+?>
+
+<!DOCTYPE html>
+
+
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -6,14 +26,8 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="topnav">
-      <a class="active" href="index.php">Home</a>
-      <a href="tennis.html">Tennis</a>
-      <a href="soccer.html">Soccer</a>
-      <a href="basketball.php">Basketball</a>
-    </div>
     
-
+      <a class="active" href="index.php">Back Home</a>
   
     <section>
       <nav>
@@ -58,9 +72,30 @@
             
             </table>
 
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+
+
+            <table class = "center">
+    				<tr>
+    					<th>Player</th>
+    					<th>Current Points</th>
+    				</tr>
+    		
+    				<?php foreach($pros as $pro){ ?>
+    					<tr>
+    						<td><?php echo htmlspecialchars($pro["Title"]); ?></td>
+    						<td><?php echo htmlspecialchars($pro["Points"]); ?></td>
+    					<tr>
+    				<?php } ?>
+    		
+    			  </table>
 
         </article>
       </section>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src = "style.js"></script>
 </html>
+

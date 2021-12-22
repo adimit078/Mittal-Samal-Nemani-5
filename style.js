@@ -13,5 +13,3 @@ $(document).ready(
 		);
 	}
 );
-
-https://codepen.io/muoivy/pen/qYwooe

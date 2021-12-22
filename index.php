@@ -1,14 +1,16 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="homecss.css" />
-  </head>
+  </head> 
   <body>
     <div class="topnav">
-      <a class="active" href="webpage.html">Home</a>
-      <a href="soccer.html">Soccer</a>
-      <a href="basketball.html">Basketball</a>
+      <a class="active" href="index.php">Home</a>
       <a href="tennis.html">Tennis</a>
+      <a href="soccer.html">Soccer</a>
+      <a href="basketball.php">Basketball</a>
+
     </div>
 
     <div style="padding-left: 16px">
@@ -49,8 +51,6 @@
             through individual pages
           </li>
         </ol>
-        <h1>New Information</h1>
-        <p>RESERVED FOR MILLARD DATA</p>
       </article>
     </section>
 

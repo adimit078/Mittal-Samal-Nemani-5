@@ -2,23 +2,28 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="soccer.css" />
-    <script src="style.js"></script>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <div class="topnav">
-      <a class="active" href="webpage.html">Home</a>
-      <a href="file:///C:/Users/sansa/OneDrive/Documents/GitHub/Mittal-Samal-Nemani-5/soccer.html">Soccer</a>
-      <a href="basketball.html">Basketball</a>
+      <a class="active" href="index.php">Home</a>
       <a href="tennis.html">Tennis</a>
+      <a href="soccer.html">Soccer</a>
+      <a href="basketball.php">Basketball</a>
     </div>
+      
 
     <section>
         <nav>
-          <figure>
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/SJZN3DG2DMI6TKGC2TKLCDHBGM.jpg">
-          </figure>
-          <figcaption>Maradona</figcaption>
+          <section id ="RO_container">
+            <figure>
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/SJZN3DG2DMI6TKGC2TKLCDHBGM.jpg" alt = "image of maradona">
+              <figcaption>
+                <h2>Diego Maradona</h2>
+                <p>The Greatest Soccer Player to Win the World Cup</p>
+              </figcaption>
+            </figure>
+          </section> 
         </nav>
         
         <article>
@@ -29,7 +34,7 @@
           
           <h1>About</h1>
           <p>Soccer is the worlds most popular sport with half the world either playing, watching, or following the sport. It is a wonderful sport filled with creativity, physicality, and determination. </p>
-          <h4 id="demo">Click Here to See the Top Teams</h4>
+          <h4 id="demo">Click Here to See the Top Club Teams</h4>
           <script>
             document.getElementById("demo").onclick = function() {myFunction()};
             
@@ -37,10 +42,35 @@
               document.getElementById("demo").innerHTML = "Bayern Munich, Borussia Dortmund, Real Madrid, Paris Saint Germain, Manchester City, Chelsea, Liverpool, Ajax";
             }
           </script>
-          <button class="button button1">Top 10 Players</button>
-          <button class="button button2">Current Most Goals Scored</button>
-          <button class="button button3">Previous World Cup Winners</button>
+          
+
+          <table>
+
+            <tr>
+              <th>Player</th>
+              <th>Current Player's Goals:</th>
+            </tr>
+
+            <tr>
+              <th>Messi: </th>
+              <th>758</th>
+            </tr>
+            <tr>
+              <th>Ronaldo: </th>
+              <th>1095</th>
+            </tr>
+            <tr>
+              <th>Lewandowski: </th>
+              <th>553</th>
+            </tr>
+
+
+            
+          </table>
+
         </article>
       </section>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src = "style.js"></script>
+  </body>
 </html>
